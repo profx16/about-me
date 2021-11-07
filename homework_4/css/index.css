@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/woff2/Mulish-Regular.woff2) format("woff2")
+   }
+
+@font-face {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url(../fonts/woff2/Mulish-Bold.woff2) format("woff2")
+   }
+
+@font-face {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: medium;
+    font-display: swap;
+    src: url(../fonts/woff2/Mulish-Medium.woff2) format("woff2")
+   }
+
+@font-face {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/woff2/Mulish-Light.woff2) format("woff2")
+   }
+
+body {
+    font-family: Mulish, sans-serif;
+    background-color: #ffffff;
+}
+
+.our-services-section {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.55;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    
+
+}
+
+.our-services-p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #7D7987;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #7D7987
+}
+
+.search-doctor-card {
+    padding: 54px 45px 46.59px 37px;
+}
+
+.online-pharmacy-card {
+    padding: 58px 42px 47px 36px;
+}
+
+.consultation-card {
+    padding: 47px 50px 47px 38px;
+}
+
+.details-info-card {
+    padding: 46px 50px 47px 38px;
+}
+
+.emergency-care-card {
+    padding: 59px 45px 46px 38px;
+}
+
+.tracking-card {
+    padding: 52px 50px 75px 38px;
+}
+
+li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    width: 350px;
+    height: 354px;
+    background-color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 37px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 2.3;
+    padding-top: 22px;
+}
+
+
+
+button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 3.33;
+    color: #458FF6;
+    min-width: 200px;
+    border-width: 1.4px;
+    border-style: solid;
+    border-color: #458FF6;
+    border-radius: 55px;
+    margin-top: 69px;
+    padding: 3px 51px 1px;
+}
+
+.button{
+    text-align: center;
+}
+
+.margin-bottom ~ li {
+    margin-bottom: 0px;
+}

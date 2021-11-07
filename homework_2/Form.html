@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Форма регистрации">
+    <title>Form</title>
+</head>
+    <body>
+        <form action="action.php">
+            <h1>Форма регистрации</h1>
+            <fieldset>
+                <legend>
+                    Основная информация
+                </legend>
+                    <div>
+                        <label for="FirstName">Имя*</label>
+                        <input id="FirstName" type="text" placeholder="Введите имя" required>
+                    </div>
+                    <div>
+                        <label for="LastName">Фамилия*</label>
+                        <input id="LastName" type="text" placeholder="Введите фамилию" required>
+                    </div>
+                    <div>
+                        <label for="Nickname">Nickname*</label>
+                        <input id="Nickname" type="text" placeholder="Введите Nickname" required>
+                    </div>
+                    <div>
+                        <label for="DateOfBirth">Ваша дата рождения*</label>
+                        <input id="DateOfBirth" type="date" required>
+                    </div>
+                    <div>
+                        <label for="TimeOfBirth">Ваше время рождения*</label>
+                        <input id="TimeOfBirth" type="time" required>
+                    </div>
+                    <div>
+                        <label for="City">Ваш город*</label>
+                        <select id="City" required>
+                            <option value="" selected disabled>Выберите город</option>
+                            <option value="Dnepr">Днепр</option>
+                            <option value="Kyiv">Киев</option>
+                            <option value="Kharkov">Харьков</option>
+                        </select>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Почта и пароль
+                </legend>
+                    <div>
+                        <label for="Email">Email*</label>
+                        <input id="Email" type="email" placeholder="Введите ваш email" required>
+                    </div>
+                    <div>
+                        <label for="Email2">Запасной Email*</label>
+                        <input id="Email2" type="email" placeholder="Введите ваш email" required>
+                    </div>
+                    <div>
+                        <label for="Pass">Пароль*</label>
+                        <input id="Pass" type="password" minlength="4" maxlength="6" placeholder="Введите ваш пароль" required>
+                    </div>
+                    <div>
+                        <label for="Pass2">Подтвердить пароль*</label>
+                        <input id="Pass2" type="password" minlength="4" maxlength="6" placeholder="Введите ваш пароль" required>
+                    </div>
+            </fieldset>
+            <fieldset>
+            <legend>
+                Контактная информация
+            </legend>
+                <div>
+                    <label for="Tel">Телефон*</label>
+                    <input id="Tel" type="tel" placeholder="Введите ваш телефон" required>
+                </div>
+                <div>
+                    <label for="Tel2">Дополнительный телефон</label>
+                    <input id="Tel2" type="tel" placeholder="Введите ваш телефон">
+                </div>
+                <div>
+                    <label for="Skype">Skype</label>
+                    <input id="Skype" type="text" placeholder="Введите ваш Skype">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Уровень навыков
+                </legend>
+                <div>
+                    <label for="html">HTML</label>
+                    <input id="html" type="range" min="0" max="10" step="2">
+                </div>
+                <div>
+                    <label for="css">CSS</label>
+                    <input id="css" type="range" min="0" max="10" step="2">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    О себе
+                </legend>
+                <div>
+                    <label for="aboutME">Расскажите о себе</label>
+                    <textarea id="aboutME" cols="30" rows="10" placeholder="Ввведите текст"></textarea>
+                </div>
+                <p>
+                    Ваш пол
+                </p>
+                <div>
+                    <label for="Men">Мужской</label>
+                    <input id="Men" type="radio" name="gender" value="men">
+                    <label for="Women">Женский</label>
+                    <input id="Women" type="radio" name="gender" value="women">
+                    <label for="otherGender">Другое</label>
+                    <input id="otherGender" type="radio" name="gender" value="otherGender">
+                </div>
+                <p>
+                    Ваш любимый цвет
+                </p>
+                <div>
+                    <input type="color">
+                </div>
+                <p>
+                    Вид занятости
+                </p>
+                <div>
+                    <label for="fullTime">Работаю full time</label>
+                    <input id="fullTime" type="radio" name="work" value="fullTime">
+                </div>
+                <div>
+                    <label for="partTime">Работаю part time</label>
+                    <input id="partTime" type="radio" name="work" value="partTime">
+                </div>
+                <div>
+                    <label for="Freelance">Freelance</label>
+                    <input id="Freelance" type="radio" name="work" value="Freelance">
+                </div>
+                <div>
+                    <label for="NoWork">Временно не работаю</label>
+                    <input id="NoWork" type="radio" name="work" value="NoWork">
+                </div>
+                <div>
+                    <label for="Student">Студент</label>
+                    <input id="Student" type="radio" name="work" value="Student">
+                </div>
+                <p>
+                    Наличие домашних животных
+                </p>
+                <div>
+                    <label for="animalHuguenot">Гугенот</label>
+                    <input id="animalHuguenot" type="checkbox" name="animal" value="Huguenot">
+                </div>
+                <div>
+                    <label for="animalcockroach">Прусак</label>
+                    <input id="animalcockroach" type="checkbox" name="animal" value="animalcockroach">
+                </div>
+                <div>
+                    <label for="animalBrother">Брат</label>
+                    <input id="animalBrother" type="checkbox" name="animal" value="animalBrother">
+                </div>
+                <div>
+                    <label for="animalbullfinch">Снигирь</label>
+                    <input id="animalbullfinch" type="checkbox" name="animal" value="animalbullfinch">
+                </div>
+                <div>
+                    <label for="animalOther">Другое</label>
+                    <input id="animalOther" type="checkbox" name="animal" value="otherAnimal">
+                </div>
+                <p>
+                    Добавить фаил
+                </p>
+                <div>
+                    <input type="file">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Изучаемое направление
+                </legend>
+                <p>
+                    Выберите направление из списка
+                </p>
+                <select>
+                    <option>Front end</option>
+                    <option>Back end</option>
+                  </select>
+            </fieldset>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </form>
+    </body>
+</html>
